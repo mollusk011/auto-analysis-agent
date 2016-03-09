@@ -1,23 +1,22 @@
 # auto-analysis-agent
 
-Experiment using Goal Oriented Action Planning (GOAP) in Python using A*.  Beginnings of a hypothetical agent for automating data analysis.
+Experiment using Goal Oriented Action Planning (GOAP) in Python using A*.  <br>
+The beginning of a hypothetical agent for automating data analysis.
 
-*Available Actions*
-<pre><code>
-self.action_import_records()
+### Available Actions
+<pre><code>self.action_import_records()
 self.action_check_thresholds()
 self.action_do_analysis()
-self.action_return_results()
-</code></pre>
+self.action_return_results()</code></pre>
 
-*Input*
+### Input
 * Current state
 * Goal State
 
-*Output*
+### Output
 * Action Plan
-* 
-*Example Output*
+
+### Example Output
 <pre><code>
 ('PLAN STEP', {'action': 'import records'})
 ('PLAN STEP', {'action': 'import records'})
