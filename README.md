@@ -10,11 +10,21 @@ self.action_do_analysis()
 self.action_return_results()</code></pre>
 
 ### Input
-* Current state
-* Goal State
+* Current State
+<pre><code>
+        num_records = 0
+        min_num_records = 10
+        is_thresholds_met = False
+        is_analysis_complete = False
+        simulated_records_fetch = 5
+        is_results_delivered = False
+</code></pre>
 
-### Output
-* Action Plan
+* Goal State
+<pre><code>
+        is_results_delivered = True
+</code></pre>
+
 
 ### Example Output
 <pre><code>
